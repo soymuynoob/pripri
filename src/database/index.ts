@@ -84,17 +84,17 @@ export class DataBase {
       .authenticate()
       // .sync({ alter: true, logging: console.log })
       .then(() => {
-        this.user.sync({ alter: true, logging: console.log })
-        this.token.sync({ alter: true, logging: console.log })
-        this.general_variables.sync({ alter: true, logging: console.log })
+        // this.user.sync({ alter: true, logging: console.log })
+        // this.token.sync({ alter: true, logging: console.log })
+        // this.general_variables.sync({ alter: true, logging: console.log })
 
 
-        this.client.sync({ alter: true, logging: console.log })
-        this.service.sync({ alter: true, logging: console.log })
-        this.expense.sync({ alter: true, logging: console.log })
-        this.ticket.sync({ alter: true, logging: console.log })
-        this.route.sync({ alter: true, logging: console.log })
-        this.roleRoute.sync({ alter: true, logging: console.log })
+        // this.client.sync({ alter: true, logging: console.log })
+        // this.service.sync({ alter: true, logging: console.log })
+        // this.expense.sync({ alter: true, logging: console.log })
+        // this.ticket.sync({ alter: true, logging: console.log })
+        // this.route.sync({ alter: true, logging: console.log })
+        // this.roleRoute.sync({ alter: true, logging: console.log })
     
         // this.sede.sync({ alter: true, logging: console.log })
         // this.attachments.sync({ alter: true, logging: console.log })
