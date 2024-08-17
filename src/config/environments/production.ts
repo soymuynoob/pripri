@@ -22,10 +22,7 @@ export interface Production {
   DIR_ASSETS?: string
   ONE_SIGNAL_APP_ID?: string
   ONE_SIGNAL_API_KEY?: string
-  S3_ACCESS_KEY_ID?: string
-  S3_SECRET_ACCESS_KEY?: string
-  S3_ENDPOINT_URL?: string
-  S3_BUCKET_NAME?: string
+
   URL_LOGO?: string
 }
 export const production: Production = {
@@ -54,9 +51,6 @@ export const production: Production = {
   ONE_SIGNAL_API_KEY: process.env.ONE_SIGNAL_API_KEY,
 
 
-  S3_ACCESS_KEY_ID:  process.env.S3_ACCESS_KEY_ID,
-  S3_SECRET_ACCESS_KEY: process.env.S3_SECRET_ACCESS_KEY,
-  S3_ENDPOINT_URL: process.env.S3_ENDPOINT_URL,
-  S3_BUCKET_NAME: process.env.S3_BUCKET_NAME,
+
   URL_LOGO: process.env.URL_LOGO,
 }
